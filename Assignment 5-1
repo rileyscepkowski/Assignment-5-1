@@ -1,11 +1,12 @@
  # Initialize Variables
-g = 4
-h = 6
+j = 2
+k = 5
+n = 9
 
-# Loop while g is less than h 
-while g < h:
-    g = g + 1
-
-# Output the results
-print("g:", g)
-print("h:", h)
+# Outer loop
+while j < k:
+    m = 6
+    while m < n:
+        print("Goodbye") # Ends loop
+        m = m + 1
+    j = j + 1 
