@@ -1,14 +1,11 @@
  # Initialize Variables
-d = 4
-e = 6
-f = 7
+g = 4
+h = 6
 
-# Loop that won't run because the condition is false
-while d > f:
-    d = d + 1
-    e = e - 1
+# Loop while g is less than h 
+while g < h:
+    g = g + 1
 
 # Output the results
-print("d:", d)  # Expected output: d: 4 
-print("e:", e)  # Expected output: e: 6
-print("f:", f)  # Expected output: f: 7
+print("g:", g)
+print("h:", h)
