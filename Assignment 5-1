@@ -1,14 +1,14 @@
  # Initialize Variables
-a = 1
-b = 2
-c = 5
+d = 4
+e = 6
+f = 7
 
- # Loop while a is less than c
-while a < c:
-    a = a + 1
-    b = b + c
+# Loop that won't run because the condition is false
+while d > f:
+    d = d + 1
+    e = e - 1
 
-# Output the values
-    print("a:", a)
-    print("b:", b)      
-    print("c:", c)
+# Output the results
+print("d:", d)  # Expected output: d: 4 
+print("e:", e)  # Expected output: e: 6
+print("f:", f)  # Expected output: f: 7
