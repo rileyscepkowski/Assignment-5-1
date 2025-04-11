@@ -1,1 +1,14 @@
+ # Initialize Variables
+a = 1
+b = 2
+c = 5
 
+ # Loop while a is less than c
+while a < c:
+    a = a + 1
+    b = b + c
+
+# Output the values
+    print("a:", a)
+    print("b:", b)      
+    print("c:", c)
