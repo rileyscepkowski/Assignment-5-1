@@ -1,12 +1,13 @@
  # Initialize Variables
 j = 2
 k = 5
+m = 6
 n = 9
 
 # Outer loop
 while j < k:
-    m = 6
+#Inner Loop
     while m < n:
-        print("Goodbye") # Ends loop
+        print("Hello")
         m = m + 1
-    j = j + 1 
+        j = j + 1
